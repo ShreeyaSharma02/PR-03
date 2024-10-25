@@ -13,7 +13,7 @@ public:
     bool interact(Scientist* player) override {
         if (Helper::manhattanDistance(getCoordinates(), player->getCoordinates()) == 0 
             && player->getExperimentCount() >= 1) {
-            return true; 
+            return true;
         }
         return false;
     }

@@ -7,6 +7,7 @@
 
 class Experiment : public Interactable {
 public:
+
     Experiment(int x, int y, int width, int height)
         : Interactable(x, y, width, height) {}
 
@@ -26,4 +27,4 @@ public:
     }
 };
 
-#endif 
+#endif
